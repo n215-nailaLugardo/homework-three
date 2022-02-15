@@ -1,3 +1,3 @@
 # homework three
 
-https://in-info-web4.informatics.iupui.edu/~nlugardo/
+https://in-info-web4.informatics.iupui.edu/~nlugardo/homework-three/
