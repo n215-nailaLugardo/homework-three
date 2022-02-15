@@ -210,9 +210,16 @@ nav .links span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+.form-content .dropDown .small-box {
+  width: 103px;
+  height: 58px;
+  border: 2px solid #79ADDC;
 }

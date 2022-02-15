@@ -47,8 +47,15 @@
 
     .dropDown {
         display: flex;
-        justify-content: space-around;
         align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .small-box {
+            width: 103px;
+            height: 58px;
+            border: 2px solid $site-blue;
+        }
 
     }
 
