@@ -1,0 +1,55 @@
+.form-content {
+    max-width: $home-form-width;
+    min-height: 200px;
+    margin: $center;
+    position: relative;
+    margin-top: 350px;
+
+    .top-boxes {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .short-box {
+            width: 344px;
+            height: 58px;
+            margin-right: 21px;
+            border: 2px solid $site-blue;
+        }
+
+        .long-box {
+            width: 453px;
+            height: 58px;
+            border: 2px solid $site-blue;
+        }
+
+        ::placeholder {
+            position: absolute;
+            color: #000;
+            top: 19px;
+            left: 20px;
+        }
+    }
+
+    .check-boxes {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+
+        .longer-box {
+            width: 698px;
+            height: 58px;
+            margin-left: 57px;
+            border: 2px solid $site-blue;
+        }
+    }
+
+    .dropDown {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+}
