@@ -223,3 +223,15 @@ nav .links span {
   height: 58px;
   border: 2px solid #79ADDC;
 }
+.form-content .message {
+  margin-top: 20px;
+}
+.form-content .message .big-box {
+  width: 818px;
+  height: 192px;
+  border: 2px solid #79ADDC;
+}
+.form-content .submitButton {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
